@@ -1,4 +1,4 @@
-# MyToDoApp
+# Everydays Task
 
 A Kotlin-based to-do list app built with Jetpack Compose, following the MVVM architecture. This app allows users to register, log in, and manage daily tasks with features like task notifications, filtering, and a persistent local database for task history.
 
@@ -24,8 +24,6 @@ A Kotlin-based to-do list app built with Jetpack Compose, following the MVVM arc
 
 1. *User Registration and Login*: User credentials are securely stored in SQLite using Room. After registration, users can log in and access their tasks.
 2. *Task Creation and Management*: Users can add tasks with details like due date, priority, and description. Tasks can be updated, marked as complete, or deleted.
-3. *Task Reminders and Notifications*: The app sends notifications for tasks due soon, which are managed using WorkManager to ensure reminders are reliable.
-4. *Task History*: Completed tasks are stored in a history section and accessible from the drawer menu.
 
 ## Build Manual
 
